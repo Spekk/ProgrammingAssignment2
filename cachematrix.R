@@ -3,9 +3,8 @@
 ## (of course if this matrix will remain the same).
 
 ## The first function, makeCacheMatrix creates a special "matrix", which is really a list of four functions. First
-## we can set the which this matrix will be ($set), then we can get the given matrix ($get),
-## with the setinverse the inverted matrix is cached here and finally with the getinverse we can get the result without 
-## computing it again.
+## we can set the values in this matrix ($set), then we can get the given matrix ($get),
+## with the setinverse the inverted matrix is cached here and finally with the getinverse we can get the result.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
